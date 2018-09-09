@@ -1,4 +1,4 @@
-package de.robv.android.xposed;
+package de.aqbv.android.yqprdc;
 
 import android.content.res.AssetManager;
 import android.content.res.Resources;

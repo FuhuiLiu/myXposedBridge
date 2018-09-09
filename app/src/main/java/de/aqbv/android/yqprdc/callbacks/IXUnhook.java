@@ -1,6 +1,6 @@
-package de.robv.android.xposed.callbacks;
+package de.aqbv.android.yqprdc.callbacks;
 
-import de.robv.android.xposed.IXposedHookZygoteInit;
+import de.aqbv.android.yqprdc.IXposedHookZygoteInit;
 
 /**
  * Interface for objects that can be used to remove callbacks.

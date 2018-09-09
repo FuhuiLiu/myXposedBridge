@@ -1,9 +1,9 @@
-package de.robv.android.xposed;
+package de.aqbv.android.yqprdc;
 
 import android.app.Application;
 
-import de.robv.android.xposed.callbacks.XC_LoadPackage;
-import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
+import de.aqbv.android.yqprdc.callbacks.XC_LoadPackage;
+import de.aqbv.android.yqprdc.callbacks.XC_LoadPackage.LoadPackageParam;
 
 /**
  * Get notified when an app ("Android package") is loaded.

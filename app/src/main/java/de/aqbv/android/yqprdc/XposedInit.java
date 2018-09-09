@@ -1,4 +1,4 @@
-package de.robv.android.xposed;
+package de.aqbv.android.yqprdc;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityThread;
@@ -38,27 +38,27 @@ import java.util.zip.ZipFile;
 
 import dalvik.system.DexFile;
 import dalvik.system.PathClassLoader;
-import de.robv.android.xposed.callbacks.XC_InitPackageResources;
-import de.robv.android.xposed.callbacks.XC_LoadPackage;
-import de.robv.android.xposed.callbacks.XCallback;
-import de.robv.android.xposed.services.BaseService;
+import de.aqbv.android.yqprdc.callbacks.XC_InitPackageResources;
+import de.aqbv.android.yqprdc.callbacks.XC_LoadPackage;
+import de.aqbv.android.yqprdc.callbacks.XCallback;
+import de.aqbv.android.yqprdc.services.BaseService;
 
-import static de.robv.android.xposed.XposedBridge.hookAllConstructors;
-import static de.robv.android.xposed.XposedBridge.hookAllMethods;
-import static de.robv.android.xposed.XposedHelpers.callMethod;
-import static de.robv.android.xposed.XposedHelpers.closeSilently;
-import static de.robv.android.xposed.XposedHelpers.fileContains;
-import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
-import static de.robv.android.xposed.XposedHelpers.findClass;
-import static de.robv.android.xposed.XposedHelpers.findFieldIfExists;
-import static de.robv.android.xposed.XposedHelpers.getBooleanField;
-import static de.robv.android.xposed.XposedHelpers.getObjectField;
-import static de.robv.android.xposed.XposedHelpers.getOverriddenMethods;
-import static de.robv.android.xposed.XposedHelpers.getParameterIndexByType;
-import static de.robv.android.xposed.XposedHelpers.setObjectField;
-import static de.robv.android.xposed.XposedHelpers.setStaticBooleanField;
-import static de.robv.android.xposed.XposedHelpers.setStaticLongField;
-import static de.robv.android.xposed.XposedHelpers.setStaticObjectField;
+import static de.aqbv.android.yqprdc.XposedBridge.hookAllConstructors;
+import static de.aqbv.android.yqprdc.XposedBridge.hookAllMethods;
+import static de.aqbv.android.yqprdc.XposedHelpers.callMethod;
+import static de.aqbv.android.yqprdc.XposedHelpers.closeSilently;
+import static de.aqbv.android.yqprdc.XposedHelpers.fileContains;
+import static de.aqbv.android.yqprdc.XposedHelpers.findAndHookMethod;
+import static de.aqbv.android.yqprdc.XposedHelpers.findClass;
+import static de.aqbv.android.yqprdc.XposedHelpers.findFieldIfExists;
+import static de.aqbv.android.yqprdc.XposedHelpers.getBooleanField;
+import static de.aqbv.android.yqprdc.XposedHelpers.getObjectField;
+import static de.aqbv.android.yqprdc.XposedHelpers.getOverriddenMethods;
+import static de.aqbv.android.yqprdc.XposedHelpers.getParameterIndexByType;
+import static de.aqbv.android.yqprdc.XposedHelpers.setObjectField;
+import static de.aqbv.android.yqprdc.XposedHelpers.setStaticBooleanField;
+import static de.aqbv.android.yqprdc.XposedHelpers.setStaticLongField;
+import static de.aqbv.android.yqprdc.XposedHelpers.setStaticObjectField;
 
 /*package*/ final class XposedInit {
 	private static final String TAG = XposedBridge.TAG;
